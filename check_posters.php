@@ -15,7 +15,7 @@ print("<br /><br />day: ".$today);
 //loop all files
 foreach($filenames as $filename){
 		print("<br />");
-		$filename = split('/',$filename);
+		$filename = explode('/',$filename);
 		$filename = $filename[1];
 		print $filename;
 
